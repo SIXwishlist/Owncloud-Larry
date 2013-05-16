@@ -1,0 +1,68 @@
+/* Copyright (c) 2011, Jan-Christoph Borchardt, http://jancborchardt.net
+ This file is licensed under the Affero General Public License version 3 or later.
+ See the COPYING-README file. */
+
+#dropdown { 
+	display:block; 
+	position:absolute; 
+	z-index:500; 
+	width:19em; 
+	right:0; 
+	margin-right:7em; 
+	/*background:#eeeeee; */
+	background:#333333; 
+	padding:1em;
+	-moz-box-shadow:0 2px 6px #333333; 
+	-webkit-box-shadow:0 2px 6px #333333; 
+	box-shadow:0 2px 6px #333333;
+	-moz-border-radius-bottomleft:0px; 
+	-webkit-border-bottom-left-radius:0px; 
+	border-bottom-left-radius:0px;
+	-moz-border-radius-bottomright:0px; 
+	-webkit-border-bottom-right-radius:0px; 
+	border-bottom-right-radius:0px; 
+}
+.reshare { padding-left:0.5em; }
+#shareWithList { padding:0.5em; list-style-type: none; }
+#shareWithList li { padding-top:0.1em; color: #ffffff;}
+#dropdown label { font-weight:normal; color:#ffffff; }
+#dropdown input[type="checkbox"] { margin:0 0.2em 0 0.5em; }
+a.showCruds { display:inline; opacity:.5; }
+a.showCruds:hover { opacity:1; }
+a.unshare { float:right; display:inline; padding:.3em 0 0 .3em !important; opacity:.5; }
+a.unshare:hover { opacity:1; }
+#link { border-top:1px solid #ddd; padding-top:0.5em; }
+#dropdown input[type="text"], #dropdown input[type="password"] { 
+	width:90%; 
+	color: #ffffff;
+	background-color: #333333;
+ 	border:0px solid #ddd; 
+	-moz-box-shadow:0 0px 0px #fff;
+	-webkit-box-shadow:0 0px 0px #fff;
+	box-shadow:0 0px 0px #fff;
+	-moz-border-radius:0px; 
+	-webkit-border-radius:0px; 
+	border-radius:0px; 
+	outline:none; 
+}
+#dropdown input[type="text"]:focus, #dropdown input[type="password"]:focus { 
+	width:90%; 
+	color: #000000;
+	background-color: #ffffff;
+ 	border:0px solid #ddd; 
+	-moz-box-shadow:0 0px 0px #fff;
+	-webkit-box-shadow:0 0px 0px #fff;
+	box-shadow:0 0px 0px #fff;
+	-moz-border-radius:0px; 
+	-webkit-border-radius:0px; 
+	border-radius:0px; 
+	outline:none; 
+}
+#dropdown form {
+    font-size: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+#linkText, #linkPass, #expiration { display:none; }
+#link #showPassword img { width:12px; padding-left: 0.3em; }
+#link label, #expiration label{ padding-left: 0.5em; }

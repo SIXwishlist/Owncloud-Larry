@@ -1,0 +1,7 @@
+This theme is based on the default owncloud theme changed to
+visually match the roundcube Larry theme.
+
+INSTALLATION
+Put the following key into your config/config.php:
+
+"theme" => "larry",
